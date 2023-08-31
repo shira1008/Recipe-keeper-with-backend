@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Recipe Keeper</h1>
+    <h3 class="sentence">
+      Save and share your favorite recipes with Recipe Keeper
+    </h3>
+    <main class="main-app">
+      <section class="recipe-section form-section">
+        <h2 class="form-title">Add Recipe</h2>
+
+        <form class="recipe-form">
+          <label for="recipeName">Recipe Name</label>
+          <input type="text" id="recipeName" name="recipeName" required />
+
+          <label for="ingredients">Ingredients</label>
+          <textarea
+            name="ingredients"
+            placeholder="List ingredients separated by commas"
+            required
+            id="user-ing"
+          ></textarea>
+
+          <label for="steps">Steps for Preparation</label>
+          <textarea
+            name="steps"
+            placeholder="Steps for preparation"
+            required
+            id="user-steps"
+          ></textarea>
+
+          <label for="recipe-image">Image URL</label>
+          <textarea
+            name="recipe-image"
+            placeholder="Recipe Image URL"
+            required
+            id="user-img"
+          ></textarea>
+
+          <p class="error"></p>
+
+          <button type="submit" id="add-form-btn">Add Recipe</button>
+        </form>
+      </section>
+
+      <section class="recipe-section">
+        <h2>Your Recipes</h2>
+        <p id="error-loading"></p>
+        <div class="recipe-display">
+          <!-- added by js -->
+        </div>
+      </section>
+    </main>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
