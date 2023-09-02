@@ -29,9 +29,14 @@ function isValidURL(url) {
 async function loadRecipes() {
   try {
     const response = await fetch(`${API_BASE_URL}/recipes`);
-    const data = await response.json();
-    recipes = data;
-    updateDisplay();
+    if (response.status == 200) {
+      console.log(response);
+      const data = await response.json();
+      recipes = data;
+      updateDisplay();
+    } else {
+      errorLoading.textContent = `Error loading recipes, status ${response.status}`;
+    }
   } catch (error) {
     errorLoading.textContent = "Error loading recipes";
   }
