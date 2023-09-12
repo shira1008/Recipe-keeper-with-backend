@@ -4,6 +4,8 @@ The Recipe Keeper App is a web-based solution designed to simplify recipe manage
 </br>
 The Recipe Keeper App is a web application designed to help you manage and display your favorite recipes. With this app, you can easily add new recipes, view recipe details, and even delete recipes you no longer need, all your recipes are going to be saved in the local storage.
 
+for the Frontend version code: https://github.com/shira1008/Recipe-Keeper
+
 
 ## Features
 
@@ -21,5 +23,5 @@ The Recipe Keeper App is a web application designed to help you manage and displ
 - `api.p`': Python file, which handles the backend operations of the app. It allows for HTTP-based actions like adding and deleting recipes.
 
 
-The deployed project, available at below, showcases the frontend-only version of the Recipe Keeper Application. It utilizes JavaScript and local storage for recipe management, providing a lightweight and convenient way to organize your recipes.
+The deployed project, available at below, showcases the frontend-only version of the Recipe Keeper Application. It utilizes JavaScript and local storage for recipe management, providing a lightweight and convenient way to organize your recipes. </br>
 https://recipe-keeper-shira.netlify.app/
