@@ -2,7 +2,7 @@
 
 The Recipe Keeper App is a web-based solution designed to simplify recipe management for culinary enthusiasts. Developed as part of a course assignment, this version includes a backend component, enabling essential operations like adding and deleting recipes through HTTP methods such as GET and POST.
 </br>
-The Recipe Keeper App is a web application designed to help you manage and display your favorite recipes. With this app, you can easily add new recipes, view recipe details, and even delete recipes you no longer need, all your recipes are going to be saved in the local storage.
+
 
 for the Frontend version code: https://github.com/shira1008/Recipe-Keeper
 
