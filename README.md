@@ -1,7 +1,6 @@
 # Recipe-keeper-with-backend
 
-This project was undertaken as part of a course assignment. While I've explored more advanced UI tools in my journey, this project allowed me to dive into fundamental technologies like HTML, CSS, and JavaScript again :) 
-This version with backend is diffrent because I now handle the adding, delete etc by using http like GET, POST, .. 
+The Recipe Keeper App is a web-based solution designed to simplify recipe management for culinary enthusiasts. Developed as part of a course assignment, this version includes a backend component, enabling essential operations like adding and deleting recipes through HTTP methods such as GET and POST.
 </br>
 The Recipe Keeper App is a web application designed to help you manage and display your favorite recipes. With this app, you can easily add new recipes, view recipe details, and even delete recipes you no longer need, all your recipes are going to be saved in the local storage.
 
@@ -10,7 +9,8 @@ The Recipe Keeper App is a web application designed to help you manage and displ
 
 - Add new recipes with details such as name, ingredients, steps, and an image.
 - Remove recipes from your collection.
-- Utilizes local storage to save your recipes.
+- save the recipes to a json file
+- API Integration: The project leverages a FastAPI-based API for seamless interaction with recipe data, enabling actions like creating, updating, and deleting recipes.
 
 
 ## Folder Structure
@@ -18,8 +18,8 @@ The Recipe Keeper App is a web application designed to help you manage and displ
 - `index.html`: Main HTML file containing the app's structure.
 - `style.css`: CSS file containing styles for the app's appearance.
 - `app.js`: JavaScript file with the app's functionality.
-- 'api.py': Python file for handling the backend
+- `api.p`': Python file, which handles the backend operations of the app. It allows for HTTP-based actions like adding and deleting recipes.
 
 
-The deployed project:
+The deployed project, available at below, showcases the frontend-only version of the Recipe Keeper Application. It utilizes JavaScript and local storage for recipe management, providing a lightweight and convenient way to organize your recipes.
 https://recipe-keeper-shira.netlify.app/
